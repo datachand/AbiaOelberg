@@ -11,11 +11,11 @@ int main(int argc, char const *argv[])
 
 	scanf("%d %d", &a, &b);
 	update(pa, pb);
-	// printf("%d\n%d", a, b);
+	// printf("%d\n%d\n", a, b);
 
 	return 0;
 }
 
 void update (int *a, int *b) {
-	printf("%d\n%d\n", (*a + *b), abs(*a - *b));
+	printf("%d\n%d", (*a + *b), abs(*a - *b));
 }
